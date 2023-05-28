@@ -23,3 +23,6 @@ $(document).ready(function(){
 $('a').click(function(event){
     event.preventDefault(); 
 	});
+
+const btnSignUp=document.getElementById("btn2");
+btnSignUp.onclick = () => document.body.style.innerHTML = alert("etes vous sur");
