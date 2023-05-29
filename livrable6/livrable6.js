@@ -1,4 +1,3 @@
-// Sample data for alerts and statistics
 const alertsData = [
     { title: "High Severity Alert", description: "Lorem ipsum dolor sit amet." },
     { title: "Medium Severity Alert", description: "Consectetur adipiscing elit." },
