@@ -1,0 +1,22 @@
+/* .acceuil{
+    background-image: url(boutiquebijou.jpg);
+} */
+/* .titre{
+    color: yellow;
+}
+.categorie{
+    text-align: center;
+} */
+.login {
+	width: 100%;
+	height: 100%;
+	background-image: url(boutiquebijou2.jpg);
+	background-size: cover;
+  }
+  .titre{
+    color: greenyellow;
+    text-align: center;
+}
+.categorie{
+    text-align: center;
+}

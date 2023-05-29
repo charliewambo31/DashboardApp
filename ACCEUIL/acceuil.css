@@ -1,9 +1,17 @@
-.accueil{
-    background-image: url(acceuil.jpeg);
+.login{
+    background-image: url(bitcoinimage2.jpg);
+    height: 100%;
+    position: absolute;
+    width:100% ;
+    background-size: cover;
 }
 .titre{
-    color: yellow;
+    color: white
+    
+    ;
+    text-align:center;
 }
 .categorie{
     text-align: center;
 }
+

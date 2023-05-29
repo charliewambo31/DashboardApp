@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: yellowgreen;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .dashboard {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  h2 {
+    margin-top: 0;
+  }
+  
+  #alerts-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #alerts-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  #stats-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .stat-box {
+    flex-basis: 30%;
+    padding: 10px;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
