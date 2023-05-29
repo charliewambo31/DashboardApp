@@ -24,5 +24,6 @@ $('a').click(function(event){
     event.preventDefault(); 
 	});
 
-const btnSignUp=document.getElementById("btn2");
-btnSignUp.onclick = () => document.body.style.innerHTML = alert("etes vous sur");
+let btnSignUp=document.getElementById("btn2");
+btnSignUp.onclick = () => document.body.innerHTML = alert("BONJOUR");
+//btnSignUp.onclick = alert("BONJOUR");
