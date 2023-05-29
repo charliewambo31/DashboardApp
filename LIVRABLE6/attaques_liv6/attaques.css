@@ -1,0 +1,199 @@
+:root {
+    --white: #FFFFFF;
+    --lightGray: #E8E9ED;
+    --gray: #F5F6FA;
+    --darkBlue: #3E84F9;
+    --fontColor: #131C38;
+    --lightFontColor: #BBC3CC;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex-center {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flex-around {
+    justify-content: space-around;
+  }
+  
+  .flex-between {
+    justify-content: space-between;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  button {
+    padding: 20px 40px;
+    background-color: var(--darkBlue);
+    color: var(--white);
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    box-shadow: 1px 1px 15px 2px #C2D3F8;
+    cursor: pointer;
+  }
+  
+  body {
+    margin: 0px;
+    color: var(--fontColor);
+    font-family: 'Roboto';
+    font-weight: normal;
+    text-shadow: none;
+    text-rendering: optimizelegibility;
+    --webkit-font-smoothing: antialiased;
+  }
+  
+  h1 {
+    font-size: 32px;
+    font-weight: normal;
+  }
+  
+  h2 {
+    font-weight: normal;
+  }
+  
+  hr {
+    width: 100%;
+    border: 1px solid var(--lightGray);
+  }
+  
+  #mobile-menu {
+    display: none;
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    background-color: var(--white);
+    z-index: 9999;
+    box-shadow: 0px 2px 2px 1px var(--lightGray);
+    border-top: 1px solid var(--lightGray);
+  }
+  
+  #mobile-menu.open {
+    display: block;
+  }
+  
+  #mobile-menu div {
+    height: 25%;
+    border-bottom: 1px solid var(--lightGray);
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  #mobile-menu div {
+    padding-left: 32px;
+  }
+  
+  #dropdown {
+    height: 55px;
+    width: 50%;
+    background-color: var(--white);
+    border: 1px solid var(--lightGray);
+    box-shadow: 0px 2px 2px 1px var(--lightGray);
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  #dropdown p, #dropdown i {
+    padding: 0px 32px;
+    opacity: 0.7; 
+  }
+  /* Nav */
+  nav {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: var(--white);
+    height: 100px;
+    width: 100%;
+    border-bottom: 1px solid var(--lightGray);
+    z-index: 9999;
+  }
+  
+  nav div {
+    height: 100%;
+    width: 95%;
+    margin: 0 auto;
+  }
+  
+  nav img {
+    height: 35px;
+    cursor: pointer;
+  }
+  
+  /* Main */
+  main {
+    margin-top: 100px;
+    background-color: var(--gray);
+  }
+  
+  /* Bitcoin Current History Section */
+  section {
+    width: 95%;
+  }
+  
+  section:first-of-type {
+    height: 1075px;
+  }
+  
+  section:nth-of-type(2) {
+    height: 700px;
+  }
+  
+  /* <section id="bitcoin-current"></section */
+  #bitcoin-current header {
+    height: 100px;
+  }
+  
+  #bitcoin-current #options-div {
+    height: 100px;
+  }
+  
+  #bitcoin-current .chart {
+    height: 400px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 1px var(--lightGray);
+  }
+  
+  .pill {
+    height: 76px;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 4px;
+    box-shadow: 0px 2px 2px 1px var(--lightGray);
+    opacity: 0.7;
+    cursor: pointer;
+  }
+  
+  .pill:first-of-type {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  
+  .pill:nth-of-type(3) {
+    border-left: 5px solid var(--darkBlue);
+    box-shadow: 0px 4px 4px 2px var(--lightGray);
+  }
+  
+  .pill p:first-of-type {
+    flex: 1;
+    padding-left: 32px;
+  }
+  
+  .pill p:nth-of-type(2) {
+    flex: 1;
+    padding-left: 32px;
+  }
+  
+  footer {
+    height: 100px;
+    opacity: 0.5;
+  }
