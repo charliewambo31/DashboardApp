@@ -1,11 +1,4 @@
-.login{
-    background-image: url(attaquesbijou.JPG);
-    height: 100%;
-    position: absolute;
-    width:100% ;
-    background-size: cover; 
-}
-
+/* Defaults */
 :root {
     --white: #FFFFFF;
     --lightGray: #E8E9ED;
