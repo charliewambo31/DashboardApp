@@ -13,7 +13,7 @@ div {width: 980px;height:400px; margin:0 auto;}
   --white: #FFFFFF;
   --lightGray: #E8E9ED;
   --gray: #F5F6FA;
-  --darkBlue: #3E84F9;
+  --darkBlue:greenyellow;
   --fontColor: white;
   --lightFontColor: #BBC3CC;
 }
@@ -40,7 +40,7 @@ div {width: 980px;height:400px; margin:0 auto;}
 }
 
 button {
-  padding: 20px 40px;
+  padding: 20px 20px;
   background-color: var(--darkBlue);
   color: var(--white);
   font-size: 16px;
