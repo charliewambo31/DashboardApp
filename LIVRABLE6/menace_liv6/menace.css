@@ -13,7 +13,7 @@ div {width: 980px;height:400px; margin:0 auto;}
   --white: #FFFFFF;
   --lightGray: #E8E9ED;
   --gray: #F5F6FA;
-  --darkBlue:greenyellow;
+  --darkBlue:white;
   --fontColor: white;
   --lightFontColor: #BBC3CC;
 }
