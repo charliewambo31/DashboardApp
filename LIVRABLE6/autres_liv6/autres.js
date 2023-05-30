@@ -1,46 +1,45 @@
-let alpha = ['7b185ca19b4be2cba68fdcd369c663a9'];
 var chartOneData = {
-  type: 'area',
+  type: "area",
   globals: {
-    fontFamily: 'Roboto',
-    fontColor: 'var(--fontColor)',
-    fontSize: '16px'
+    fontFamily: "Roboto",
+    fontColor: "var(--fontColor)",
+    fontSize: "16px"
   },
   title: {
-    text: 'Today',
-    align: 'left',
-    fontWeight: 'normal',
-    fontSize: '32px',
-    fontColor: 'var(--fontColor)',
-    margin: '0px 0px 0px 32px'
+    text: "Today",
+    align: "left",
+    fontWeight: "normal",
+    fontSize: "32px",
+    fontColor: "var(--fontColor)",
+    margin: "0px 0px 0px 32px"
   },
   tooltip: {
-    backgroundColor: 'var(--white)',
-    fontColor: 'var(--fontColor)',
+    backgroundColor: "var(--white)",
+    fontColor: "var(--fontColor)",
     callout: true,
-    padding: '24px 56px',
+    padding: "24px 56px",
     borderRadius: 4,
     borderWidth: 1,
-    borderColor: 'var(--lightGray)',
-    text: '$%v<br>October 13, %kl'
+    borderColor: "var(--lightGray)",
+    text: "$%v<br>October 13, %kl"
   },
   crosshairX: {
-    lineColor: 'var(--darkBlue)',
+    lineColor: "var(--darkBlue)",
     lineWidth: 3,
     marker: {
-      type: 'circle',
+      type: "circle",
       size: 15,
       borderWidth: 3,
-      backgroundColor: 'transparent',
+      backgroundColor: "transparent",
       borderWidth: 3,
-      borderColor: 'var(--darkBlue)'
+      borderColor: "var(--darkBlue)"
     },
     plotLabel: {
-      backgroundColor: 'transparent',
-      fontColor: 'transparent',
+      backgroundColor: "transparent",
+      fontColor: "transparent",
       borderWidth: 0,
-      borderColor: 'transparent',
-      text: ' '
+      borderColor: "transparent",
+      text: " "
     },
     scaleLabel: {
       visible: false
@@ -50,7 +49,7 @@ var chartOneData = {
     minValue: 1509120000000,
     utf: true,
     timeZone: 0,
-    step: '3hour',
+    step: "3hour",
     transform: {
       type: "date",
       all: "%h:%i"
@@ -60,38 +59,38 @@ var chartOneData = {
       visible: false
     },
     item: {
-      fontSize: '16px',
-      alpha: '0.4',
+      fontSize: "16px",
+      alpha: "0.4"
     }
   },
   scaleY: {
     guide: {
-      lineStyle: 'solid',
-      lineColor: 'var(--gray)'
+      lineStyle: "solid",
+      lineColor: "var(--gray)"
     },
     lineWidth: 0,
     item: {
-      fontSize: '16px',
-      alpha: '0.4'
+      fontSize: "16px",
+      alpha: "0.4"
     },
     tick: {
       visible: false
     },
-    values: '5500:5800:100'
+    values: "5500:5800:100"
   },
   plot: {
-    aspect: 'spline',
+    aspect: "spline"
   },
   plotarea: {
-    margin: '66px 66px 66px 66px'
+    margin: "66px 66px 66px 66px"
   },
   series: [
     {
       values: [5600, 5650, 5625, 5800, 5650, 5750, 5675, 5750, 5700, 5725],
-      backgroundColor: '#3E84F9 #fff',
-      lineColor: 'var(--darkBlue)',
+      backgroundColor: "#3E84F9 #fff",
+      lineColor: "var(--darkBlue)",
       lineWidth: 3,
-      alpha: '0.7',
+      alpha: "0.7",
       marker: {
         visible: false
       }
@@ -99,91 +98,85 @@ var chartOneData = {
   ]
 };
 
-var zingchart=({
-  id: 'chartOne',
-  data: chartOneData,
-  height: '100%',
-  width: '100%'
-});
+
 
 var chartTwoData = {
-  type: 'nestedpie',
+  type: "nestedpie",
   globals: {
-    fontFamily: 'Roboto'
+    fontFamily: "Roboto"
   },
   tooltip: {
     visible: false
   },
   title: {
-    text: 'Todays History',
-    align: 'left',
-    fontWeight: 'normal',
-    fontSize: '32px',
-    fontColor: 'var(--fontColor)',
-    margin: '0px 0px 0px 32px'
+    text: "Todays History",
+    align: "left",
+    fontWeight: "normal",
+    fontSize: "32px",
+    fontColor: "var(--fontColor)",
+    margin: "0px 0px 0px 32px"
   },
   legend: {
-    align: 'center',
-    verticalAlign: 'bottom',
+    align: "center",
+    verticalAlign: "bottom",
     item: {
-      fontSize: '16px'
+      fontSize: "16px"
     },
     borderWidth: 0,
     marker: {
-      type: 'circle',
+      type: "circle"
     }
   },
   plot: {
-    sliceStart: '35%',
+    sliceStart: "35%",
     bandSpace: 25
   },
   series: [
     {
       values: [20, 50, 20],
-      backgroundColor: '#FF4484',
+      backgroundColor: "#FF4484",
       shadow: false,
       borderWidth: 0,
-      text: 'Todays Lowest Rate'
+      text: "Todays Lowest Rate"
     },
-    { 
+    {
       values: [30, 40, 30],
-      backgroundColor: '#3E85F7',
+      backgroundColor: "#3E85F7",
       shadow: false,
       borderWidth: 0,
-      text: 'Todays Opening'
+      text: "Todays Opening"
     },
-    { 
+    {
       values: [30, 40, 30],
-      backgroundColor: '#00CB4F',
+      backgroundColor: "#00CB4F",
       shadow: false,
       borderWidth: 0,
-      text: 'Todays Highest Rate'
+      text: "Todays Highest Rate"
     }
   ]
 };
 
-zingchart=({
-  id: 'chartTwo',
-  data: chartTwoData,
-  height: '100%',
-  width: '100%'
-});
 
-var menu = document.querySelector('#hamburger');
-var mobileMenu = document.querySelector('#mobile-menu');
+
+var menu = document.querySelector("#hamburger");
+var mobileMenu = document.querySelector("#mobile-menu");
 
 function addMenu() {
-  
-  mobileMenu.classList.toggle('open');
-  
-  if (mobileMenu.className == 'open') {
-    var menu = document.querySelector('#hamburger'); 
-    menu.setAttribute('src', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/374756/x.svg')
-  } else if (mobileMenu.className !== 'open') {
-    var menu = document.querySelector('#hamburger'); 
-    menu.setAttribute('src', 'https://s3-us-west-2.amazonaws.com/s.cdpn.io/374756/hamburger.svg');
-  }
-  
-};
+  mobileMenu.classList.toggle("open");
 
-menu.addEventListener('click', addMenu);
+  if (mobileMenu.className == "open") {
+    var menu = document.querySelector("#hamburger");
+    menu.setAttribute(
+      "src",
+      "https://s3-us-west-2.amazonaws.com/s.cdpn.io/374756/x.svg"
+    );
+  } else if (mobileMenu.className !== "open") {
+    var menu = document.querySelector("#hamburger");
+    menu.setAttribute(
+      "src",
+      "https://s3-us-west-2.amazonaws.com/s.cdpn.io/374756/hamburger.svg"
+    );
+  }
+}
+
+menu.addEventListener("click", addMenu);
