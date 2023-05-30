@@ -31,97 +31,106 @@
     
     </nav>
     
-    <div id="mobile-menu">
-      <div class="flex-center"><i class="fa fa-home" aria-hidden="true"></i>&nbsp<p>Home</p></div>
-      <div class="flex-center"><i class="fa fa-user" aria-hidden="true"></i>&nbsp<p>Account</p></div>
-      <div class="flex-center"><i class="fa fa-file-text" aria-hidden="true"></i>&nbsp<p>History</p></div>
-      <div class="flex-center"><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp<p>Logout</p></div>
-    </div>
     
-    <main class="flex-center flex-column">
-      
-      <section class="flex flex-column flex-around" id="bitcoin-current">
-        
-        <header class="flex flex-column">
+    
+    <nav>
+    
+        <div class="flex-center flex-between">
           
-          <h1>Historiques des valeurs BisouBijou BTC</h1>
+          <img src="https://upload.wikimedia.org/wikipedia/commons/c/c5/Bitcoin_logo.svg">
           
-          <hr>
+          <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/374756/hamburger.svg" id="hamburger">
           
-        </header>
-        
-        <div class="flex-center flex-between" id="options-div">
-          
-          <h2>Select BTC Address</h2>
-          
-          <div class="flex-center flex-between" id="dropdown">
-            <p>Email</p>
-            <i class="fa fa-chevron-down" aria-hidden="true"></i>
           </div>
-         
-          <button>Submit</button>
-        
-        </div>
-            <img src="/IMAGES/courbeDashboard1.JPG"></img>
-            <img src="/IMAGES/courbeDashboard2.JPG"></img>
-
-        <!-- <img src="images/courbeDashbord1.JPG"></img>
-        <img src="images/courbeDashbord2.JPG"></img>
-         -->
-        <!-- <div class="chart" id="chartOne"></div>
-        
-        <div class="chart" id="chartTwo"></div> -->
-        
-      </section>
       
-      <section class="flex flex-column flex-around" id="bitcoin-history">
+    </nav>
+      
+    <div id="mobile-menu">
+        <div class="flex-center"><i class="fa fa-home" aria-hidden="true"></i>&nbsp<p>Home</p></div>
+        <div class="flex-center"><i class="fa fa-user" aria-hidden="true"></i>&nbsp<p>Account</p></div>
+        <div class="flex-center"><i class="fa fa-file-text" aria-hidden="true"></i>&nbsp<p>History</p></div>
+        <div class="flex-center"><i class="fa fa-sign-out" aria-hidden="true"></i>&nbsp<p>Logout</p></div>
+    </div>
+      
+    <main class="flex-center flex-column">
         
-        <header>
+        <section class="flex flex-column flex-around" id="bitcoin-current">
           
-          <h1>Aperçu des Historiques BisouBijou BTC</h1>
+          <header class="flex flex-column">
+            
+            <h1>BTC Value History</h1>
+            
+            <hr>
+            
+          </header>
           
-          <hr>
+          <div class="flex-center flex-between" id="options-div">
+            
+            <h2>Select BTC Address</h2>
+            
+            <div class="flex-center flex-between" id="dropdown">
+              <p>Email</p>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+           
+            <button>Submit</button>
           
-        </header>
+          </div>
+          
+          <div class="chart" id="chartOne"></div>
+          
+          <div class="chart" id="chartTwo"></div>
+          
+        </section>
         
-        <div class="flex-center flex-between pill">
-          <p>DATE</p>
-          <p>ADRESSE BTC</p>
-        </div>
+        <section class="flex flex-column flex-around" id="bitcoin-history">
+          
+          <header>
+            
+            <h1>History Overview</h1>
+            
+            <hr>
+            
+          </header>
+          
+          <div class="flex-center flex-between pill">
+            <p>DATE</p>
+            <p>BTC ADRESS</p>
+          </div>
+          
+          <div class="flex-center flex-between pill">
+            <p>Oct 9, 2017 11:45AM</p>
+            <p>1F1tAaz5x1HUXrCNLbtMDqcw6o5gNn4xqX</p>
+          </div>
+          
+          <div class="flex-center flex-between pill">
+            <p>Oct 20th, 2017 11:45AM</p>
+            <p>1BKUbrsmMnxno9GFcLw9paB2Y7eaNiZVXR</p>
+          </div>
+          
+          <div class="flex-center flex-between pill">
+            <p>Oct 20th, 2017 11:45AM</p>
+            <p>7d44ee08bdde342021113913db2dbad</p>
+          </div>
+          
+          <div class="flex-center flex-between pill">
+            <p>Oct 9, 2017 11:45AM</p>
+            <p>1F1tAaz5x1HUXrCNLbtMDqcw605GNn4xqX</p>
+          </div>
+          
+          <div class="flex-center flex-between pill">
+            <p>Oct 20th, 2017 11:45AM</p>
+            <p>1PMAwY6uJj8wWLZz4txQ8FKErMXcdq6dtj</p>
+          </div>
         
-        <div class="flex-center flex-between pill">
-          <p>29 mai 2023,  11:45AM</p>
-          <p>1F1tAaz5x1HUXrCNLbtMDqcw6o5gNn4xqX</p>
-        </div>
+        </section>
         
-        <div class="flex-center flex-between pill">
-          <p>29 mai 2023 11:45AM</p>
-          <p>1BKUbrsmMnxno9GFcLw9paB2Y7eaNiZVXR</p>
-        </div>
+        <footer class="flex-center">
+          
+          <p>© 2017 BTC Dashboard. All rights reserved.</p>
+          
+        </footer>
         
-        <div class="flex-center flex-between pill">
-          <p>29 mai 2023 11:45AM</p>
-          <p>7d44ee08bdde342021113913db2dbad</p>
-        </div>
-        
-        <div class="flex-center flex-between pill">
-          <p>29 mai 202311:45AM</p>
-          <p>1F1tAaz5x1HUXrCNLbtMDqcw605GNn4xqX</p>
-        </div>
-        
-        <div class="flex-center flex-between pill">
-          <p>29 mai 2023 11:45AM</p>
-          <p>1PMAwY6uJj8wWLZz4txQ8FKErMXcdq6dtj</p>
-        </div>
-      
-      </section>
-      
-      <footer class="flex-center">
-        
-        <p>© 2023 BTC Dashboard BizouBijou. All rights reserved.</p>
-        
-      </footer>
-      
     </main>
     <script src="autres.js"></script>
   </body>
