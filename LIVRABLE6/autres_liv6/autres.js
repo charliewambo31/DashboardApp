@@ -1,5 +1,4 @@
-ZC.LICENSE = ['7b185ca19b4be2cba68fdcd369c663a9'];
-
+let alpha = ['7b185ca19b4be2cba68fdcd369c663a9'];
 var chartOneData = {
   type: 'area',
   globals: {
@@ -100,7 +99,7 @@ var chartOneData = {
   ]
 };
 
-zingchart.render({
+var zingchart=({
   id: 'chartOne',
   data: chartOneData,
   height: '100%',
@@ -163,7 +162,7 @@ var chartTwoData = {
   ]
 };
 
-zingchart.render({
+zingchart=({
   id: 'chartTwo',
   data: chartTwoData,
   height: '100%',
