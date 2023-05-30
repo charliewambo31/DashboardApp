@@ -1,17 +1,15 @@
-// Sample data for alerts and statistics
 const alertsData = [
-    { title: "High Severity Alert", description: "Lorem ipsum dolor sit amet." },
-    { title: "Medium Severity Alert", description: "Consectetur adipiscing elit." },
-    { title: "Low Severity Alert", description: "Praesent eu semper nunc." }
+    { title: "Alerte de niveau de securite eleve", description: "Code rouge." },
+    { title: "Alerte de niveau de securite moyen", description: "Code jaune." },
+    { title: "Alerte de niveau de securite faible", description: "Code vert." }
   ];
   
   const statsData = [
-    { title: "Total Attacks", value: 1234 },
-    { title: "Blocked Attacks", value: 567 },
-    { title: "Unresolved Alerts", value: 89 }
+    { title: "Total des attaques", value: 1234 },
+    { title: "Attaques bloquees", value: 567 },
+    { title: "Alertes non resolues", value: 89 }
   ];
   
-  // Function to dynamically populate alerts
   function populateAlerts() {
     const alertsList = document.getElementById("alerts-list");
   
@@ -22,7 +20,7 @@ const alertsData = [
     });
   }
   
-  // Function to dynamically populate statistics
+ 
   function populateStatistics() {
     const statsContainer = document.getElementById("stats-container");
   
