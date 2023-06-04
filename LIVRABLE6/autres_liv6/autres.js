@@ -1,5 +1,3 @@
-ZC.LICENSE = ["7b185ca19b4be2cba68fdcd369c663a9"];
-
 var chartOneData = {
   type: "area",
   globals: {
@@ -100,12 +98,7 @@ var chartOneData = {
   ]
 };
 
-zingchart.render({
-  id: "chartOne",
-  data: chartOneData,
-  height: "100%",
-  width: "100%"
-});
+
 
 var chartTwoData = {
   type: "nestedpie",
@@ -163,12 +156,7 @@ var chartTwoData = {
   ]
 };
 
-zingchart.render({
-  id: "chartTwo",
-  data: chartTwoData,
-  height: "100%",
-  width: "100%"
-});
+
 
 var menu = document.querySelector("#hamburger");
 var mobileMenu = document.querySelector("#mobile-menu");

@@ -14,16 +14,15 @@ function field_focus(field, email)
     }
   }
 
-//Fade in dashboard box
-$(document).ready(function(){
-    $('.box').hide().fadeIn(1000);
-    });
 
-//Stop click event
-$('a').click(function(event){
-    event.preventDefault(); 
-	});
+//(document).ready(function(){
+    //$('.box').hide().fadeIn(1000);
+    //});
 
-let btnSignUp=document.getElementById("btn2");
-btnSignUp.onclick = () => document.body.innerHTML = alert("BONJOUR");
-//btnSignUp.onclick = alert("BONJOUR");
+
+//('a').click(function(event){
+    //event.preventDefault(); 
+	//});
+
+//let btnSignUp=document.getElementById("btn2");
+//btnSignUp.onclick = () => document.body.innerHTML = alert("BONJOUR");
